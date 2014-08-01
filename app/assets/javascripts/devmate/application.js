@@ -1,28 +1,35 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// the compiled file.
-//
-// WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
-// GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
 
-setPrompt = function() {
-  noty({
-    text: "Devmate!",
-    layout: 'topRight',
-    maxVisible: 2,
-    timeout: 2000
+// Fetch Data
+var quotes = undefined;
+
+$.ajax({
+    url: '/fetchData.json',
+    success: function(msg) {
+      quotes = msg;
+    },
+    error: function(jqXHR, textStatus, errorThrown){
+    },
+    complete: function(){
+      setTimeout(setPrompt, 1000);
+    }
   });
 
-  return setTimeout(setPrompt, 3000);
+
+setPrompt = function() {
+  // Generate a random number of the quote to be picked
+  random_index = ((Math.floor((Math.random() * 100))% quotes.data_count) + 1)
+  noty({
+    text: quotes.data[random_index],
+    layout: quotes.position,
+    maxVisible: quotes.maxVisible,
+    timeout: quotes.timeout,
+    type: 'default'
+  });
+
+  setTimeout(setPrompt, quotes.call_timeout);
 };
 
-setTimeout(setPrompt, 3000);

@@ -1,17 +1,17 @@
-;(function($) {
+(function($) {
 
-	$.noty.layouts.topRight = {
-		name: 'topRight',
+	$.noty.layouts.bottomLeft = {
+		name: 'bottomLeft',
 		options: { // overrides options
 			
 		},
 		container: {
-			object: '<ul id="noty_topRight_layout_container" />',
-			selector: 'ul#noty_topRight_layout_container',
+			object: '<ul id="noty_bottomLeft_layout_container" />',
+			selector: 'ul#noty_bottomLeft_layout_container',
 			style: function() {
 				$(this).css({
-					top: 60,
-					right: 20,
+					bottom: 20,
+					left: 20,
 					position: 'fixed',
 					width: '310px',
 					height: 'auto',
@@ -23,7 +23,7 @@
 
 				if (window.innerWidth < 600) {
 					$(this).css({
-						right: 5
+						left: 5
 					});
 				}
 			}

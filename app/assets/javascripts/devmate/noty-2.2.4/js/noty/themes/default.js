@@ -1,4 +1,4 @@
-;(function($) {
+(function($) {
 
 	$.noty.themes.defaultTheme = {
 		name: 'defaultTheme',
@@ -45,12 +45,13 @@
 			});
 
 			this.$message.css({
-				fontSize: '13px',
-				lineHeight: '16px',
+				fontSize: '12px',
+				lineHeight: '18px',
 				textAlign: 'center',
 				padding: '8px 10px 9px',
 				width: 'auto',
-				position: 'relative'
+				position: 'relative',
+				fontWeight: 'bold'
 			});
 
 			this.$closeButton.css({
@@ -77,7 +78,7 @@
 				marginLeft: 0
 			});
 
-			this.$bar.bind({
+			this.$bar.on({
 				mouseenter: function() { $(this).find('.noty_close').stop().fadeTo('normal',1); },
 				mouseleave: function() { $(this).find('.noty_close').stop().fadeTo('normal',0); }
 			});
@@ -98,7 +99,7 @@
 						border: '1px solid #eee',
 						boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)"
 					});
-					this.$message.css({fontSize: '13px', textAlign: 'center'});
+					this.$message.css({fontSize: '12px', textAlign: 'center'});
 				break;
 				case 'topLeft': case 'topRight':
 				case 'bottomLeft': case 'bottomRight':
@@ -108,7 +109,7 @@
 						border: '1px solid #eee',
 						boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)"
 					});
-					this.$message.css({fontSize: '13px', textAlign: 'left'});
+					this.$message.css({fontSize: '12px', textAlign: 'left'});
 				break;
 				case 'bottom':
 					this.$bar.css({
@@ -144,7 +145,7 @@
 					this.$bar.css({backgroundColor: 'lightgreen', borderColor: '#50C24E', color: 'darkgreen'});
 					this.$buttons.css({borderTop: '1px solid #50C24E'});break;
 				default:
-					this.$bar.css({backgroundColor: '#FFF', borderColor: '#CCC', color: '#444'}); break;
+					this.$bar.css({backgroundColor: '#FFFF', borderColor: '#CCC', color: '#444'}); break;
 			}
 		},
 		callback: {
