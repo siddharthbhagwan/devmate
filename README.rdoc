@@ -2,6 +2,10 @@ Devmate is a gem that uses [noty](http://ned.im/noty/) to popup random programmi
 
 Customize the quotes and the timing as per your convenience!
 
-To install, add the gemfile to the development group
+To install, add the gemfile `devmate` to the development group, and do `bundle`.
+
+The gem pops up a quote on the top right of the screen on every refresh, that stays for a minute, and appears every 20 minutes.
+
+These options can be overridden by running `rails g devmate`, and setting the approproate values in the initializer file.
 
 This project rocks and uses MIT-LICENSE.
