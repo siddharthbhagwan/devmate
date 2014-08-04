@@ -1,3 +1,7 @@
-= Devmate
+Devmate is a gem that uses [noty](http://ned.im/noty/) to popup random programming and tech quotes from time to time.
+
+Customize the quotes and the timing as per your convenience!
+
+To install, add the gemfile to the development group
 
 This project rocks and uses MIT-LICENSE.

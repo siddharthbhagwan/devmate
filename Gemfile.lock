@@ -1,14 +1,7 @@
-GIT
-  remote: https://github.com/trapni/jquery-noty-rails
-  revision: 054ff43cf3166531e6b5f24309a1e15d19de61e7
-  specs:
-    jquery-noty-rails (0.2.0)
-      railties (>= 3.1.0)
-
 PATH
   remote: .
   specs:
-    devmate (0.0.1)
+    devmate (1.0.0)
       jquery-rails
       json
       rails (~> 3.2.13)
@@ -101,7 +94,6 @@ PLATFORMS
 
 DEPENDENCIES
   devmate!
-  jquery-noty-rails!
   jquery-rails
   json
   rails (= 3.2.13)

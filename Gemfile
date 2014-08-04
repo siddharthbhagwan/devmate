@@ -9,7 +9,6 @@ gemspec
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
 gem 'json'
-gem 'jquery-noty-rails', :git => 'https://github.com/trapni/jquery-noty-rails'
 
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or
