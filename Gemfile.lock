@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    devmate (1.0.0)
+    devmate (0.1.1)
       jquery-rails
       json
-      rails (~> 3.2.13)
+      rails (>= 3.0.0)
 
 GEM
   remote: https://rubygems.org/

@@ -3,7 +3,7 @@
   "2": "We are stuck with technology when what we really want is just stuff that works ~ Douglas Adams!",
   "3": "It’s supposed to be automatic, but actually you have to push this button ~ John Brunner",
   "4": "Computers make it easier to do a lot of things, but most of the things they make it easier to do don’t need to be done ~ Andy Rooney",
-  "5": "May the source be with you",
+  "5": "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime ~ David Leinweber",
   "6": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live ~ Martin Golding",
   "7": "When debugging, novices insert corrective code; experts remove defective code ~ Richard Pattis",
   "8": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand ~ Martin Fowler",
@@ -21,7 +21,7 @@
   "20": "A language that doesn’t have everything is actually easier to program in than some that do ~ Dennis M. Ritchie",
   "21": "Compatibility means deliberately repeating other people’s mistakes ~ David Wheeler",
   "22": "Code never lies, comments sometimes do ~ Ron Jeffries",
-  "23": "I am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand ~ Douglas Adams, Last Chance to See",
+  "23": "I am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand ~ Douglas Adams",
   "24": "When I am working on a problem I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong ~ R. Buckminster Fuller",
   "25": "Theory is when you know something, but it doesn’t work. Practice is when something works, but you don’t know why. Programmers combine theory and practice: Nothing works and they don’t know why ~ Stewart Brand",
   "26": "Good code is short, simple, and symmetrical – the challenge is figuring out how to get there ~ Sean Parent",
@@ -31,6 +31,5 @@
   "30": "If it doesn’t work, it doesn’t matter how fast it doesn’t work ~ Mich Ravera",
   "31": "No code is faster than no code ~ Merb Motto",
   "32": "So much complexity in software comes from trying to make one thing do two things ~ Ryan Singer",
-  "33": "Normal people believe that if it ain’t broke, don’t fix it. Engineers believe that if it ain’t broke, it doesn’t have enough features yet ~ Scott Adams",
-  "34": "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime ~ David Leinweber"
+  "33": "Normal people believe that if it ain’t broke, don’t fix it. Engineers believe that if it ain’t broke, it doesn’t have enough features yet ~ Scott Adams"
 } 
